@@ -11,4 +11,5 @@ Este sistema visa automatizar o romaneio de pesagem, permitindo o cadastro indiv
 ## Integrantes da Equipe
 * **[Ana Luiza]** - GitHub: [@teixeira009-cell](https://github.com/usuario1)
 * **[Otavio Ferrari]** - GitHub: [@ocasarinferrari-blip](https://github.com/usuario2)
-* **[Nome do Aluno 3]** - GitHub: [@usuario3](https://github.com/usuario3)
+* **[Weslley Viola]** - GitHub: [@weslleyviola7-stack](https://github.com/usuario3)
+* **[Felipe Nunes]** - GitHub: [@Felipe9736](https://github.com/usuario3)
