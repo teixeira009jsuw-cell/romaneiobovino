@@ -9,7 +9,7 @@ Este sistema visa automatizar o romaneio de pesagem, permitindo o cadastro indiv
 ---
 
 ## Integrantes da Equipe
-* **[Ana Luiza]** - GitHub: [@teixeira009-cell](https://github.com/usuario1)
-* **[Otavio Ferrari]** - GitHub: [@ocasarinferrari-blip](https://github.com/usuario2)
-* **[Weslley Viola]** - GitHub: [@weslleyviola7-stack](https://github.com/usuario3)
-* **[Felipe Nunes]** - GitHub: [@Felipe9736](https://github.com/usuario3)
+* **[Ana Luiza]** -Fluxograma de Processo do Agro-    GitHub: [@teixeira009-cell](https://github.com/usuario1)
+* **[Otavio Ferrari]** - Modelo de Banco de Dados     GitHub: [@ocasarinferrari-blip](https://github.com/usuario2)
+* **[Weslley Viola]** - Diagrama de Contêiner         GitHub: [@weslleyviola7-stack](https://github.com/usuario3)
+* **[Felipe Nunes]** - Diagrama de Contexto           GitHub: [@Felipe9736](https://github.com/usuario3)
