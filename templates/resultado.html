@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Resultado do Cálculo</h1>
+
+        <div class="resultado">
+            <p><strong>Peso informado:</strong> {{ peso }} kg</p>
+            <p><strong>Arrobas:</strong> {{ arrobas }} @</p>
+        </div>
+
+        <a href="/" class="voltar">Calcular outro animal</a>
+    </div>
+
+</body>
+</html>
