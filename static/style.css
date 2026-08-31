@@ -74,3 +74,12 @@ button:hover{
     color:#2e7d32;
     font-weight:bold;
 }
+
+.erro{
+    background:#ffebee;
+    color:#c62828;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:20px;
+    font-weight:bold;
+}
