@@ -83,3 +83,45 @@ button:hover{
     margin-bottom:20px;
     font-weight:bold;
 }
+
+
+.resultado{
+    background:#e8f5e9;
+    padding:18px;
+    border-radius:12px;
+    margin:20px 0;
+    border-left:6px solid #2e7d32;
+}
+
+.erro{
+    background:#ffebee;
+    color:#c62828;
+    padding:18px;
+    border-radius:12px;
+    margin:20px 0;
+    border-left:6px solid #c62828;
+}
+
+.voltar{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    background:#2e7d32;
+    color:white;
+    padding:12px;
+    border-radius:10px;
+    font-weight:bold;
+    margin-top:15px;
+}
+
+.voltar:hover{
+    background:#1b5e20;
+}
+
+button{
+    transition: .25s;
+}
+
+button:hover{
+    transform: translateY(-2px);
+}
