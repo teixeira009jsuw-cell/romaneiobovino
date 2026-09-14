@@ -36,3 +36,21 @@ CREATE TABLE romaneio (
     id_lote INTEGER NOT NULL,
     FOREIGN KEY (id_lote) REFERENCES lote(id_lote)
 );
+-- ==========================
+-- DADOS DE TESTE
+-- ==========================
+
+INSERT INTO fazenda (nome, proprietario, municipio)
+VALUES ('Fazenda Boa Vista', 'João Pereira', 'Ariquemes');
+
+INSERT INTO lote (codigo_lote, id_fazenda, quantidade)
+VALUES ('LT001', 1, 3);
+
+INSERT INTO animal (brinco, sexo, peso, raca, id_lote)
+VALUES
+('BR001', 'Macho', 18.5, 'Nelore', 1),
+('BR002', 'Fêmea', 17.9, 'Nelore', 1),
+('BR003', 'Macho', 19.2, 'Angus', 1);
+
+INSERT INTO romaneio (data_romaneio, destino, motorista, id_lote)
+VALUES ('2026-09-14', 'Frigorífico JBS', 'Carlos Silva', 1);
