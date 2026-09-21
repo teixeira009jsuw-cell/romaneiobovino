@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romaneio Bovino</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Romaneio de Bovinos</h1>
+        <p>Calcule rapidamente as arrobas a partir do peso do animal.</p>
+
+        <form action="/calcular" method="POST">
+
+            <label for="peso">Peso do animal (kg)</label>
+
+            <input
+                type="number"
+                id="peso"
+                name="peso"
+                step="0.1"
+                placeholder="Ex: 450"
+                required>
+
+            <button type="submit">Calcular Arrobas</button>
+
+        </form>
+    </div>
+
+</body>
+</html>

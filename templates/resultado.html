@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Resultado</h1>
+
+    {% if erro %}
+        <div class="erro">
+            <p>{{ erro }}</p>
+        </div>
+    {% else %}
+        <div class="resultado">
+            <p><strong>Peso informado:</strong> {{ peso }} kg</p>
+            <p><strong>Total em arrobas:</strong> {{ arrobas }} @</p>
+        </div>
+    {% endif %}
+
+    <a href="/" class="voltar">← Novo cálculo</a>
+</div>
+
+</body>
+</html>
