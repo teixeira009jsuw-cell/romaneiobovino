@@ -1,0 +1,19 @@
+@startuml C4_Container
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(produtor, "Produtor Rural", "Utiliza o sistema")
+
+System_Boundary(s1, "Romaneio Bovino") {
+
+    Container(web, "Aplicação Web", "Flask", "Rotas e regras de negócio")
+
+    ContainerDb(db, "Banco de Dados", "SQLite", "Armazena fazendas, lotes, animais e romaneios")
+
+    Container(ui, "Interface", "HTML + CSS", "Telas do sistema")
+}
+
+Rel(produtor, ui, "Acessa")
+Rel(ui, web, "Envia requisições")
+Rel(web, db, "Lê e grava dados")
+
+@enduml
