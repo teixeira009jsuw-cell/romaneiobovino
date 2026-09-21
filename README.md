@@ -1,38 +1,27 @@
-# Romaneio Bovino
+# 🐂 Romaneio Bovino
 
-Sistema web desenvolvido para auxiliar o **romaneio de pesagem de bovinos**, permitindo o cadastro de fazendas, lotes e animais, além do registro de romaneios de forma simples e organizada.
+Sistema web desenvolvido em Python + Flask para automatizar o romaneio de pesagem de bovinos.
 
-## 🌐 Aplicação Web Online
+## Integrantes
 
-**PythonAnywhere:**
-https://otavioferrari999.pythonanywhere.com/
+- Ana Luiza Teixeira Francisco
+- Otávio Ferrari
+- Felipe Balem
+- Weslley
 
-## 🛠️ Tecnologias Utilizadas
+## Funcionalidades
 
-* Python 3
-* Flask
-* HTML5
-* CSS3
-* SQLite
+- Cadastro do brinco do animal;
+- Cálculo automático de arrobas;
+- Validação de peso;
+- Registro de data e hora do romaneio;
+- Estrutura de banco de dados SQLite.
 
-## 🗄️ Banco de Dados
+## Tecnologias
 
-O banco foi desenvolvido em **SQLite** e é composto por quatro entidades principais:
-
-* Fazenda
-* Lote
-* Animal
-* Romaneio
-
-O arquivo `database/schema.sql` contém a criação das tabelas, seus relacionamentos e os dados iniciais para testes.
-
-## 🏛️ Arquitetura
-
-O projeto utiliza a arquitetura **C4 – Nível 2 (Container)**. O diagrama está disponível em:
-
-`docs/c4-container.png`
-
-## 👨‍💻 Equipe
-
-* **Ana Luiza Teixeira** — Backend, Flask e Interface Web
-* **Otávio Casarin Ferrari** — Banco de Dados, Modelagem SQLite e Documentação Técnica
+- Python
+- Flask
+- HTML5
+- CSS3
+- SQLite
+- Git e GitHub
