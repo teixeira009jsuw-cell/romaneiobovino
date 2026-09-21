@@ -3,27 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resultado do Romaneio</title>
+    <title>Resultado</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
 <div class="container">
-    <h1>Resultado do Romaneio</h1>
+
+    <h1>📋 Resultado do Romaneio</h1>
 
     {% if erro %}
+
         <div class="erro">
-            <p>{{ erro }}</p>
+            {{ erro }}
         </div>
+
     {% else %}
+
         <div class="resultado">
             <p><strong>Brinco:</strong> {{ brinco }}</p>
             <p><strong>Peso:</strong> {{ peso }} kg</p>
             <p><strong>Arrobas:</strong> {{ arrobas }} @</p>
+            <p><strong>Data:</strong> {{ data }}</p>
         </div>
+
     {% endif %}
 
     <a href="/" class="voltar">Novo cálculo</a>
+
+    <footer>
+        IFRO • Sistema de Romaneio de Bovinos
+    </footer>
+
 </div>
 
 </body>
